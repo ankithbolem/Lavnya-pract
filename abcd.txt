@@ -1,0 +1,11 @@
+CSV is a data directory which contains examples of CSV files, a flat file format describing values in a table.
+
+Each record consists of M values, separated by commas. However, the last value is not followed by a comma.
+
+Double quotes are used as escape characters. A string with a comma can be delimited by double quotes so that that comma is not misinterpreted as a field separator.
+
+To de-escape a double quote, that is, to use it literally, use two double quotes.
+
+A final, unmatched, double quote on a line indicates that that line is to be continued on the next line.
+
+In some cases, a CSV file includes an initial line of headers.
