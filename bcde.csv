@@ -1,0 +1,3 @@
+In order to connect to AWS. Terraform has to successfully authenticate. It is done with the help of Programmatic API Keys (Access Key and Secret.)
+
+Some Sample usage of these API Keys in a terraform configuration.
